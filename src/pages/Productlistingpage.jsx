@@ -67,7 +67,7 @@ const Productlistingpage = () => {
                                 <p className="font-semibold text-lg">1</p>
                                 <p>+</p>
                             </div>
-                            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
+                            <button className="px-3 py-1 md:px-8 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
                         </div>
         </div>
         <div className="border  h-[300px] w-[180px] md:w-[280px] rounded-lg">
@@ -83,7 +83,7 @@ const Productlistingpage = () => {
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-3 py-1 md:px-8 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>
         <div className="border h-[300px] w-[180px] md:w-[280px] rounded-lg">
@@ -93,13 +93,13 @@ const Productlistingpage = () => {
                 <p>G. Niacinamide Brightening Toner | 120ml</p>
                 <p><strong>#15,200</strong></p>
             </div>
-            <div className="flex justify-between mt-2">
+            <div className="flex justify-between mt-12 md:mt-2">
             <div className="flex mx-5 mt-5 gap-3 border-b border-neutral-400">
                 <p>-</p>
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-3 py-1 md:px-8 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>
         <div className="border h-[300px] w-[180px] md:w-[280px] rounded-lg">
@@ -115,7 +115,7 @@ const Productlistingpage = () => {
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-3 py-1 md:px-8 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>
         <div className="border  h-[300px] w-[180px] md:w-[280px] rounded-lg">
@@ -131,7 +131,7 @@ const Productlistingpage = () => {
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-3 py-1 md:px-8 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>
         <div className="border h-[300px] w-[180px] md:w-[280px] rounded-lg">
@@ -141,13 +141,13 @@ const Productlistingpage = () => {
                 <p>Good Skin Club Emulsion Gel | 30ml</p>
                 <p><strong>#8,000</strong></p>
             </div>
-            <div className="flex justify-between mt-5">
+            <div className="flex justify-between mt-10 md:mt-5">
             <div className="flex mx-5 mt-5 gap-3 border-b border-neutral-400">
                 <p>-</p>
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-3 py-1 md:px-8 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>
         <div className="border h-[300px] w-[180px] md:w-[280px] rounded-lg">
@@ -157,13 +157,13 @@ const Productlistingpage = () => {
                 <p>Tam Snail & Azulene Low pH | 150ml</p>
                 <p><strong>#15,000</strong></p>
             </div>
-            <div className="flex justify-between mt-5">
+            <div className="flex justify-between mt-14 md:mt-5">
             <div className="flex mx-5 mt-5 gap-3 border-b border-neutral-400">
                 <p>-</p>
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-3 py-1 md:px-8 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>
         <div className="border  h-[300px] w-[180px] md:w-[280px] rounded-lg">
@@ -173,13 +173,13 @@ const Productlistingpage = () => {
                 <p>Balance Vit.C Glow & Radiance Serum | 30ml</p>
                 <p><strong>#10,000</strong></p>
             </div>
-            <div className="flex justify-between md:mt-5">
+            <div className="flex justify-between mt-10 md:mt-5">
             <div className="flex mx-5 mt-5 gap-3 border-b border-neutral-400">
                 <p>-</p>
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-3 py-1 md:px-8 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>
         <div className="border h-[300px] w-[180px] md:w-[280px] rounded-lg">
@@ -189,13 +189,13 @@ const Productlistingpage = () => {
                 <p>Charbarl Charcoal Mask | 150g</p>
                 <p><strong>#10,000</strong></p>
             </div>
-            <div className="flex justify-between mt-2">
+            <div className="flex justify-between mt-14 md:mt-2">
             <div className="flex mx-5 mt-5 gap-3 border-b border-neutral-400">
                 <p>-</p>
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-3 py-1 md:px-8 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>
         <div className="border h-[300px] w-[180px] md:w-[280px] rounded-lg">
@@ -205,7 +205,7 @@ const Productlistingpage = () => {
                 <p>The Ordinary AHA & BHA Peeling Solution | 60ml</p>
                 <p><strong>#12,000</strong></p>
             </div>
-            <div className="flex justify-between mt-2">
+            <div className="flex justify-between mt-10 md:mt-2">
             <div className="flex mx-5 md:mt-5 gap-3 border-b border-neutral-400">
                 <p>-</p>
                 <p className="font-semibold text-lg">1</p>
@@ -221,13 +221,13 @@ const Productlistingpage = () => {
                 <p>Clinique Wrinke Correcting Eye Serum | 50ml</p>
                 <p><strong>#25,200</strong></p>
             </div>
-            <div className="flex justify-between mt-2">
+            <div className="flex justify-between mt-8 md:mt-2">
             <div className="flex mx-5 mt-5 gap-3 border-b border-neutral-400">
                 <p>-</p>
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-3 py-1 md:px-8 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>
         <div className="border h-[300px] w-[180px] md:w-[280px] rounded-lg">
@@ -243,7 +243,7 @@ const Productlistingpage = () => {
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-3 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>       
 

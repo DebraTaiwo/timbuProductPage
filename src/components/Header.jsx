@@ -22,7 +22,7 @@ const Header = () => {
                 <img src={logo} alt="logo"/></div>
             <div className='flex font-semibold space-x-5'>
                 <button><img className='h-5 w-5' src={profile} alt="image" /></button>
-                <Link to = "/cart"><button><img className='h-5 w-5 mt-4'src={Shoppingbag} alt="image" /></button></Link>
+                <Link to = "/cart" className='mt-4'><button><img className='h-5 w-5'src={Shoppingbag} alt="image" /></button></Link>
             </div>
             
             </div>
