@@ -5,7 +5,7 @@ import logo from '../assets/Idaralogo.png'
 
 const Footer = () => {
   return (
-    <footer className='mt-20 border-neutral-400 bg-other-rgba mb-0'>
+    <footer className=' mt-20 mb-0 border-neutral-400 bg-other-rgba '>
         
             <div className='items-justify md:items-center justify-normal md:justify-center md:text-center flex flex-col mx-10 md:mx-20'>
                 <img className='mt-10 h-12 w-12' src={logo} alt="image" />
