@@ -21,7 +21,7 @@ const Header = () => {
             <div className='mr-20 lg:mr-40'>
                 <Link to = "/"><button><img src={logo} alt="logo"/></button></Link></div>
             <div className='flex font-semibold space-x-5'>
-                <Link to = "/cart" className='mt-4'><button><img className='h-5 w-5'src={Shoppingbag} alt="image" /></button></Link>
+                <Link to = "/cart" className='mt-5'><button><img className='h-5 w-5'src={Shoppingbag} alt="image" /></button></Link>
                 <button><img className='h-5 w-5' src={profile} alt="image" /></button>
                 
             </div>
