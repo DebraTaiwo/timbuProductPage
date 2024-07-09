@@ -201,11 +201,11 @@ const Productlistingpage = () => {
         <div className="border h-[300px] w-[180px] md:w-[280px] rounded-lg">
             <div className="items-right justify-end flex mt-3 mr-3"><HeartIcon/></div>
             <div className="flex items-center justify-center"><img className="h-20 w-20 md:h-auto md:w-auto" src={product10} alt="image" /></div>
-            <div className="flex gap-4 md:mt-5 mx-2 md:mx-5 text-sm md:text-md">
+            <div className="flex gap-4 md:mt-2 mx-2 md:mx-5 text-sm md:text-md">
                 <p>The Ordinary AHA & BHA Peeling Solution | 60ml</p>
                 <p><strong>#12,000</strong></p>
             </div>
-            <div className="flex justify-between mt-10 md:mt-2">
+            <div className="flex justify-between mt-10 md:mt-6">
             <div className="flex mx-5 md:mt-5 gap-3 border-b border-neutral-400">
                 <p>-</p>
                 <p className="font-semibold text-lg">1</p>
@@ -217,11 +217,11 @@ const Productlistingpage = () => {
         <div className="border h-[300px] w-[180px] md:w-[280px] rounded-lg">
             <div className="items-right justify-end flex mt-2 mr-3"><HeartIcon/></div>
             <div className="flex items-center justify-center"><img className="h-20 w-20 md:h-auto md:w-auto" src={product11} alt="image" /></div>
-            <div className="flex gap-4 md:mt-5 mx-2 md:mx-5 text-sm md:text-md">
-                <p>Clinique Wrinke Correcting Eye Serum | 50ml</p>
+            <div className="flex gap-4 mt-2 mx-2 md:mx-5 text-sm md:text-md">
+                <p>Clinique Wrinkle Correcting Eye Serum | 50ml</p>
                 <p><strong>#25,200</strong></p>
             </div>
-            <div className="flex justify-between mt-8 md:mt-2">
+            <div className="flex justify-between mt-5 md:mt-7">
             <div className="flex mx-5 mt-5 gap-3 border-b border-neutral-400">
                 <p>-</p>
                 <p className="font-semibold text-lg">1</p>
@@ -229,7 +229,7 @@ const Productlistingpage = () => {
             </div>
             <button className="px-3 py-1 md:px-8 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
-        </div>
+        </div>   
         <div className="border h-[300px] w-[180px] md:w-[280px] rounded-lg">
             <div className="items-right justify-end flex mt-2 mr-3"><HeartIcon/></div>
             <div className="flex items-center justify-center"><img className="h-20 w-20 md:h-auto md:w-auto" src={product12} alt="image" /></div>
@@ -237,13 +237,13 @@ const Productlistingpage = () => {
                 <p>Curology Foaming Cleanser | 273ml</p>
                 <p><strong>#12,000</strong></p>
             </div>
-            <div className="flex justify-between mt-5">
+            <div className="flex justify-between mt-5 md:mt-7">
             <div className="flex mx-5 mt-5 gap-3 border-b border-neutral-400">
                 <p>-</p>
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-3 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-3 py-1 md:px-8 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>       
 

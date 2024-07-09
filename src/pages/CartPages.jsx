@@ -27,7 +27,7 @@ const CartPages = () => {
             <div>
                 <p>Touch bright & Clear Cream  | 150ml</p>
                 <p><strong>#12,000</strong></p>
-                <div className="flex mt-5 gap-3 border-b border-neutral-400 w-20 mb-5">
+                <div className="flex mx-5 mt-5 gap-3 border-b border-neutral-400 w-20 mb-5">
                 <p>-</p>
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
@@ -49,7 +49,7 @@ const CartPages = () => {
             <X/>        
         </div>
         </div>
-        <div className='bg-other-rgba h-60 w-60 mx-20 rounded-lg mb-5'>
+        <div className='bg-other-rgba h-60 w-60 mx-10 md:mx-20 rounded-lg mb-5'>
             <h2 className='text-2xl font-bold items-center justify-center flex mt-2 border-b border-neutral-800 py-3'>Order Summary</h2>
             <div className='flex border-b border-neutral-800 justify-between py-3'>
                 <p className='ml-5'>Subtotal</p>
