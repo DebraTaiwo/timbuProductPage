@@ -19,24 +19,15 @@ const Header = () => {
                 <div className='hidden md:border w-60 md:py-1 md:rounded-full md:border-neutral-400 md:items-start md:mb-2 md:flex'>
                     <div className='hidden:sm flex gap-2 mx-5'><Search className='mt-1'size={18}/> Search</div></div>
             <div className='mr-20 lg:mr-40'>
-                <img src={logo} alt="logo"/></div>
+                <Link to = "/"><button><img src={logo} alt="logo"/></button></Link></div>
             <div className='flex font-semibold space-x-5'>
-                <button><img className='h-5 w-5' src={profile} alt="image" /></button>
                 <Link to = "/cart" className='mt-4'><button><img className='h-5 w-5'src={Shoppingbag} alt="image" /></button></Link>
+                <button><img className='h-5 w-5' src={profile} alt="image" /></button>
+                
             </div>
             
             </div>
-        </div>
-      <div className='md:mt-5'>
-        <ul className='hidden md:flex gap-10 items-center justify-center'>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Brands</a></li>
-            <li><a href="#">Collections</a></li>
-            <li><a href="#">Hair</a></li>
-            <li><a href="#">Deals</a></li>
-            <li><a href="#">Wholesales</a></li>
-        </ul>
-      </div>
+        </div>     
       
     </div>
   )
