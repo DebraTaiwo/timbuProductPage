@@ -1,17 +1,13 @@
 import logo from '../assets/Idaralogo.png'
 import profile from '../assets/profile.png'
 import Shoppingbag from '../assets/shoppingbag.png'
-import { Menu, Search, X, ChevronRight } from 'lucide-react'
-import { useState } from 'react'
+import { Search } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 
 const Header = () => {
     
-  const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
-  const toggleNavBar = ()=>{
-    setMobileDrawerOpen(!mobileDrawerOpen);
-  }
-
+ 
   return (
     <div className='mt-0'>
         <div className='h-55 w-full bg-custom-rgba'>
@@ -26,27 +22,10 @@ const Header = () => {
                 <img src={logo} alt="logo"/></div>
             <div className='flex font-semibold space-x-5'>
                 <button><img className='h-5 w-5' src={profile} alt="image" /></button>
-                <button><img className='h-5 w-5'src={Shoppingbag} alt="image" /></button>
-                <button onClick={toggleNavBar} className='md:hidden'>{mobileDrawerOpen? <X/> : <Menu/>}</button>
+                <Link to = "/cart"><button><img className='h-5 w-5'src={Shoppingbag} alt="image" /></button></Link>
             </div>
             
             </div>
-            {mobileDrawerOpen&& (
-              <div className='lg:hidden right-0 fixed z-20 bg-white w-full p-12 flex flex-col items-justify h-[500px]'>
-                <ul className='space-y-10'>
-                  <li><a href="#">Shop</a></li>
-                  <li><a href="#">Brands</a></li>
-                  <li><a href="#">Collections</a></li>
-                  <li><a href="#">Hair</a></li>
-                  <li><a href="#">Deals</a></li>
-                  <li><a href="#">Wholesales</a></li>
-                  <div className='flex gap-3'><li>
-                    <a href="#">Information</a></li>
-                    <ChevronRight/>
-                    </div>
-                </ul>
-              </div>
-            )}
         </div>
       <div className='md:mt-5'>
         <ul className='hidden md:flex gap-10 items-center justify-center'>

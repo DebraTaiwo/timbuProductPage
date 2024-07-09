@@ -16,7 +16,7 @@ const ThankyouPage = () => {
             <h2 className='font-bold text-lg md:text-2xl mt-8 flex flex-col items-center justify-center'>Thank you for shopping with Timbu!</h2>
             <p className='mt-2'>We will send your receipt to your mail</p>
             <Link to ="/">
-            <button className="mt-5 w-[150px] md:w-[250px] h-8 flex items-center justify-center bg-custom-rgba rounded-lg text-white text-sm md:text-md">
+            <button className="mt-5 w-[150px] md:w-[250px] h-8 flex items-center justify-center bg-custom-rgba rounded-[12px] text-white text-sm md:text-md">
             Continue shopping</button>
             </Link>
 

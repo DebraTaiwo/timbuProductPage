@@ -27,7 +27,7 @@ const CartPages = () => {
             <div>
                 <p>Touch bright & Clear Cream  | 150ml</p>
                 <p><strong>#12,000</strong></p>
-                <div className="flex mx-5 mt-5 gap-3 border-b border-neutral-400 w-20 mb-5">
+                <div className="flex mt-5 gap-3 border-b border-neutral-400 w-20 mb-5">
                 <p>-</p>
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
@@ -35,7 +35,7 @@ const CartPages = () => {
             </div>
             <X/>        
         </div>
-        <div className='grid grid-cols-3 gap-5 mx-5 md:mx-20 border-neutral-400 border-b mb-10'>
+        <div className='grid grid-cols-3 gap-5 md:mx-20 border-neutral-400 border-b mb-10'>
             <img className='h-20 w-20' src={product2} alt="image" />
             <div>
                 <p>Cosrx The Vitamin C 13 Serum | 60ml</p>
@@ -60,7 +60,7 @@ const CartPages = () => {
                 <p className='mr-5'><strong>#22,000</strong></p>
             </div>
             <Link to ="/checkout">
-            <button className='bg-custom-rgba w-48 h-10 text-white flex justify-center items-center mx-5 mt-5 rounded-lg'>Checkout</button>
+            <button className='bg-custom-rgba w-48 h-10 text-white flex justify-center items-center mx-5 mt-5 rounded-[12px]'>Checkout</button>
             </Link>
             
         </div>
@@ -82,7 +82,7 @@ const CartPages = () => {
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-lg mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>
         <div className="flex-shrink-0 border h-[300px] w-[180px] md:w-[280px] rounded-lg">
@@ -98,7 +98,7 @@ const CartPages = () => {
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-lg mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>  
         <div className="flex-shrink-0 border h-[300px] w-[180px] md:w-[280px] rounded-lg">
@@ -114,7 +114,7 @@ const CartPages = () => {
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-lg mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>
         <div className="flex-shrink-0 border h-[300px] w-[180px] md:w-[280px] rounded-lg">
@@ -130,7 +130,7 @@ const CartPages = () => {
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-lg mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>
         </div>

@@ -54,7 +54,7 @@ const Productlistingpage = () => {
     
       <div className="flex mx-2 md:mx-20 mt-10 items-center justify-center mb-10">
                 <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 md:gap-5 items-center justify-center product-listing">
-                    <div className="border h-[300px] w-[180px] md:w-[280px] rounded-lg">
+        <div className="border h-[300px] w-[180px] md:w-[280px] rounded-lg">
                         <div className="items-right justify-end flex mt-2 mr-1 md:mr-3"><HeartIcon /></div>
                         <div className="flex items-center justify-center"><img className="h-20 w-20 md:h-auto md:w-auto" src={product1} alt="image" /></div>
                         <div className="flex gap-4 mt-2 mx-2 md:mx-5 text-sm md:text-md">
@@ -67,9 +67,9 @@ const Productlistingpage = () => {
                                 <p className="font-semibold text-lg">1</p>
                                 <p>+</p>
                             </div>
-                            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-lg mr-3 text-white text-sm md:text-md">Add to Cart</button>
+                            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
                         </div>
-                    </div>
+        </div>
         <div className="border  h-[300px] w-[180px] md:w-[280px] rounded-lg">
             <div className="items-right justify-end flex mt-2 mr-3"><HeartIcon/></div>
             <div className="flex items-center justify-center"><img className="h-20 w-20 md:h-auto md:w-auto" src={product2} alt="image" /></div>
@@ -83,7 +83,7 @@ const Productlistingpage = () => {
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-lg mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>
         <div className="border h-[300px] w-[180px] md:w-[280px] rounded-lg">
@@ -99,7 +99,7 @@ const Productlistingpage = () => {
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-lg mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>
         <div className="border h-[300px] w-[180px] md:w-[280px] rounded-lg">
@@ -115,7 +115,7 @@ const Productlistingpage = () => {
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-lg mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>
         <div className="border  h-[300px] w-[180px] md:w-[280px] rounded-lg">
@@ -131,7 +131,7 @@ const Productlistingpage = () => {
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-lg mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>
         <div className="border h-[300px] w-[180px] md:w-[280px] rounded-lg">
@@ -147,7 +147,7 @@ const Productlistingpage = () => {
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-lg mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>
         <div className="border h-[300px] w-[180px] md:w-[280px] rounded-lg">
@@ -163,7 +163,7 @@ const Productlistingpage = () => {
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-lg mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>
         <div className="border  h-[300px] w-[180px] md:w-[280px] rounded-lg">
@@ -179,7 +179,7 @@ const Productlistingpage = () => {
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-lg mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>
         <div className="border h-[300px] w-[180px] md:w-[280px] rounded-lg">
@@ -195,7 +195,7 @@ const Productlistingpage = () => {
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-lg mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>
         <div className="border h-[300px] w-[180px] md:w-[280px] rounded-lg">
@@ -211,7 +211,7 @@ const Productlistingpage = () => {
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-3 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-lg mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-3 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>
         <div className="border h-[300px] w-[180px] md:w-[280px] rounded-lg">
@@ -227,7 +227,7 @@ const Productlistingpage = () => {
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-lg mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>
         <div className="border h-[300px] w-[180px] md:w-[280px] rounded-lg">
@@ -243,14 +243,14 @@ const Productlistingpage = () => {
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-lg mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-4 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>       
 
         </div>
         {isOpen && (
-                    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-                        <div className="bg-white rounded shadow-lg p-6 w-full md:w-[500px] h-full md:h-[500px]">
+                    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 ">
+                        <div className="bg-white rounded shadow-lg p-6 w-full md:w-[500px] h-full md:h-[500px] md:absolute md:top-10 md:right-10">
                             <div className="flex flex-row justify-between ">
                                 <h2 className="text-lg font-bold mb-4">Cart(2) added!</h2>
                                 <button onClick={closeModal}><X /></button>

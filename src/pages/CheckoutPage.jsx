@@ -181,7 +181,7 @@ const CheckoutPage = () => {
         </div>
         <div className='mt-10 items-center justify-center flex flex-col'>
           <Link to ="/thankyou">
-            <button className="w-[200px] lg:w-[400px] h-10 flex items-center justify-center bg-custom-rgba rounded-lg text-white text-sm md:text-md">
+            <button className="w-[200px] lg:w-[400px] h-10 flex items-center justify-center bg-custom-rgba rounded-[12px] text-white text-sm md:text-md">
             Pay Now</button>
             </Link>
         <p className='mt-5 mb-10 mx-5'>We accept every and any type of payment; Bank transfer, Debit/Credit cards, USSD</p>
