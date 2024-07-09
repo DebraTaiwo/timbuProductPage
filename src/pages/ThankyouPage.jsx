@@ -12,7 +12,7 @@ const ThankyouPage = () => {
           <div className='bg-cover bg-center bg-mobile-home h-[67px] md:h-[170px] md:mt-5'>
             <div className='flex items-center justify-center h-full text-xl md:text-2xl'></div>
           </div>
-          <div className='mt-20 items-center justify-center flex flex-col mx-5'>
+          <div className='mt-20 md:mt-60 items-center justify-center flex flex-col mx-5'>
             <div className="mt-20 h-20 w-20 rounded-full items-center justify-center flex bg-custom-rgba text-white">
               <Check size={55}/>
             </div>
