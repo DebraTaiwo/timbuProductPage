@@ -22,7 +22,7 @@ const CartPages = () => {
       </div>
       <div className='mt-20 flex flex-col md:flex-row border-b border-neutral-200'>
         <div>
-        <div className='grid grid-cols-3 gap-5 mx-20 border-neutral-400 border-b mb-10'>
+        <div className='grid grid-cols-3 gap-5 mx-5 md:mx-20 border-neutral-400 border-b mb-10'>
             <img className='h-20 w-20' src={product1} alt="image" />
             <div>
                 <p>Touch bright & Clear Cream  | 150ml</p>
@@ -35,7 +35,7 @@ const CartPages = () => {
             </div>
             <X/>        
         </div>
-        <div className='grid grid-cols-3 gap-5 mx-20 border-neutral-400 border-b mb-10'>
+        <div className='grid grid-cols-3 gap-5 mx-5 md:mx-20 border-neutral-400 border-b mb-10'>
             <img className='h-20 w-20' src={product2} alt="image" />
             <div>
                 <p>Cosrx The Vitamin C 13 Serum | 60ml</p>

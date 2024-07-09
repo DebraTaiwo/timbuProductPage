@@ -102,7 +102,7 @@ const CheckoutPage = () => {
           <label className="block text-gray-700 text-sm font-bold pb-2">Country</label>
           <input
             type="text"
-            name="firstName"
+            name="country"
             value={formData.country}
             onChange={handleChange}
             className="w-full xl:w-[220px] px-3 py-2 border rounded-lg text-[12px]"
@@ -113,7 +113,7 @@ const CheckoutPage = () => {
           <label className="block text-gray-700 text-sm font-bold pb-2">State</label>
           <input
             type="text"
-            name="lastName"
+            name="state"
             value={formData.state}
             onChange={handleChange}
             className="w-full xl:w-[220px] px-3 py-2 border rounded-lg text-[12px]"
@@ -126,7 +126,7 @@ const CheckoutPage = () => {
           <label className="block text-gray-700 text-sm font-bold pb-2">Phone Number</label>
           <input
             type="email"
-            name="emailAddress"
+            name="phoneNumber"
             value={formData.phoneNumber}
             onChange={handleChange}
             className="w-full px-3 py-2 border rounded-lg text-[12px]"

@@ -189,7 +189,7 @@ const Productlistingpage = () => {
                 <p>Charbarl Charcoal Mask | 150g</p>
                 <p><strong>#10,000</strong></p>
             </div>
-            <div className="flex justify-between mt-5">
+            <div className="flex justify-between mt-2">
             <div className="flex mx-5 mt-5 gap-3 border-b border-neutral-400">
                 <p>-</p>
                 <p className="font-semibold text-lg">1</p>
