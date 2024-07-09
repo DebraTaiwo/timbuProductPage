@@ -211,7 +211,7 @@ const Productlistingpage = () => {
                 <p className="font-semibold text-lg">1</p>
                 <p>+</p>
             </div>
-            <button className="px-3 py-1 md:px-10 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
+            <button className="px-3 py-1 md:px-8 md:py-2 items-center justify-center bg-custom-rgba rounded-[18px] mr-3 text-white text-sm md:text-md">Add to Cart</button>
             </div>
         </div>
         <div className="border h-[300px] w-[180px] md:w-[280px] rounded-lg">
